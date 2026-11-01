@@ -1,0 +1,14 @@
+title: Huseyin Ozgur
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - projects.md
+  - about.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
